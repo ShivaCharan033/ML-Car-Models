@@ -6,12 +6,13 @@ A professional-grade ML pipeline for predicting used car prices and segmenting v
 
 ## 📂 Project Structure
 
+```
 ├── eda/                # Exploratory Data Analysis plots
 ├── models/             # Machine Learning models
 ├── deployment/         # API / Dashboard Deployment ideas
 ├── README.md           # Project Overview
 ├── requirements.txt    # Required Python packages
-
+```
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
