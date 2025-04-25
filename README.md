@@ -1,19 +1,16 @@
-# 🚗 Car Price Prediction and Classification Project
+# 🚗 Car Price Prediction & Classification (ML Project)
 
-A professional-grade project performing full Exploratory Data Analysis (EDA) and building Machine Learning models to:
-- 📈 Predict car prices (Regression)
-- 🏷️ Classify cars as High-End vs Affordable (Classification)
+A professional-grade ML pipeline for predicting used car prices and segmenting vehicles as high-end or affordable — complete with EDA, modeling, explainability, and deployment ideas.
+
 ---
 
 ## 📂 Project Structure
 
----
-
-## 📊 Exploratory Data Analysis (EDA)
-
-- **Distribution of Prices**
-
-
+├── eda/                # Exploratory Data Analysis plots
+├── models/             # Machine Learning models
+├── deployment/         # API / Dashboard Deployment ideas
+├── README.md           # Project Overview
+├── requirements.txt    # Required Python packages
 
 ---
 
@@ -100,75 +97,18 @@ A professional-grade project performing full Exploratory Data Analysis (EDA) and
 
 ---
 
-## 🚀 Run Locally
+## 🧰 Requirements
 
-```bash
-# 1. Clone
-git clone https://
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+plotly
 
-- **Average Price by Car Make**
 
-![Make Average Price](eda/make_price_bar.png)
 
-- **Yearly Price Trend**
 
-![Yearly Price Trend](eda/yearly_trend.png)
-
----
-
-## 🤖 Machine Learning Models
-
-### 1. Car Price Prediction (Regression)
-
-- **Problem**: Predict the resale price of a car based on features.
-- **Algorithm**: Random Forest Regressor
-- **Features Used**: `year`, `mileage`, `tax`, `mpg`, `engineSize`
-- **Performance**:
-  - **MAE**: ~1200
-  - **RMSE**: ~2000
-  - **R² Score**: 0.88
-
-- **Feature Importance**:
-
-![Feature Importance](models/feature_importance_regression.png)
-
----
-
-### 2. High-End Car Classification (Classification)
-
-- **Problem**: Classify cars into High-End vs Affordable based on price.
-- **Algorithm**: XGBoost Classifier
-- **Performance**:
-  - **Accuracy**: 89%
-  - **ROC-AUC Score**: 0.91
-
-- **SHAP Explainability**:
-
-![SHAP Summary Plot](models/shap_summary_classification.png)
-
----
-
-## 📈 Business Use Cases
-
-| Model | Use Case | Business Value | Deployment Idea |
-|:---|:---|:---|:---|
-| Price Prediction | Set optimal car pricing | Maximize resale profits | Deploy as API for car dealerships |
-| Customer Segmentation | Identify high-end buyers | Targeted marketing campaigns | CRM integration |
-
----
-
-## 🚀 Deployment Ideas
-
-- 🛠 **Flask API**: Serve the regression/classification models via REST API.
-- 📊 **PowerBI Dashboard**: Display real-time price prediction and car segmentation.
-- ☁️ **Cloud Hosting**: Deploy models to AWS Lambda, Azure Functions or GCP Cloud Run.
-
----
-
-## 🛠 Instructions to Run
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/car-price-prediction.git
-cd car-price-prediction
