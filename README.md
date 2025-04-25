@@ -19,37 +19,39 @@ A professional-grade ML pipeline for predicting used car prices and segmenting v
 
 ### 🔹 1. Distribution of Car Prices
 
-![Price Distribution](./eda/Screenshot%202025-04-25%20at%203.42.24%E2%80%AFPM.png)
+![Price Distribution](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/1.jpeg?raw=true)
 
 ---
 
 ### 🔹 2. Distribution of Car Mileage
 
-![Mileage Distribution](./eda/Screenshot%202025-04-25%20at%203.42.32%E2%80%AFPM.png)
+![Mileage Distribution](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/2.jpeg?raw=true)
 
 ---
 
 ### 🔹 3. Correlation Heatmap
 
-![Correlation Heatmap](./eda/Screenshot%202025-04-25%20at%203.42.41%E2%80%AFPM.png)
+![Correlation Heatmap](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/3.jpeg?raw=true
+)
 
 ---
 
 ### 🔹 4. Boxplot: Price Outlier Detection
 
-![Boxplot](./eda/Screenshot%202025-04-25%20at%203.42.48%E2%80%AFPM.png)
+![Boxplot](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/4.jpeg?raw=true
+)
 
 ---
 
 ### 🔹 5. Top 20 Car Makes by Average Price
 
-![Car Make vs Price](./eda/Screenshot%202025-04-25%20at%203.42.55%E2%80%AFPM.png)
+![Car Make vs Price](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/5.jpeg?raw=true)
 
 ---
 
 ### 🔹 6. Year-wise Average Price Trend
 
-![Yearly Price Trend](./eda/Screenshot%202025-04-25%20at%203.43.02%E2%80%AFPM.png)
+![Yearly Price Trend](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/7.jpeg?raw=true)
 
 ---
 
@@ -62,13 +64,13 @@ A professional-grade ML pipeline for predicting used car prices and segmenting v
 - **Business Use Case:** Help dealerships price used cars more competitively
 - **Metrics:**
 
-![Regression Metrics](./models/Screenshot%202025-04-25%20at%203.43.09%E2%80%AFPM.png)
+![Regression Metrics](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/8.jpeg?raw=true)
 
 ---
 
 ### 🔸 Feature Importance (Regression)
 
-![Feature Importance](./models/Screenshot%202025-04-25%20at%203.43.17%E2%80%AFPM.png)
+![Feature Importance](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/9.jpeg?raw=true)
 
 ---
 
@@ -85,7 +87,7 @@ A professional-grade ML pipeline for predicting used car prices and segmenting v
 
 ### 🔸 SHAP Explainability (XGBoost)
 
-![SHAP Summary](./models/Screenshot%202025-04-25%20at%203.43.40%E2%80%AFPM.png)
+![SHAP Summary](https://github.com/ShivaCharan033/ML-Car-Models/blob/main/10.jpeg?raw=true)
 
 ---
 
